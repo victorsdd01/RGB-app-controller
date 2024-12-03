@@ -1,0 +1,58 @@
+RGB LED Controller 🟩🟥🟦🟨 📱💻🛜
+
+Welcome to my first IoT project! 🚀 This project is a Flutter app designed to control an RGB LED strip.
+You might be thinking, "Why not just buy a ready-made LED strip with an app included?"
+Well, as a developer, I’m curious by nature, and I thought:
+
+"What if I try to build my own app?"
+So, I embarked on a journey of learning, coding, and creating. Here's how it all came together:
+
+🌟 Features
+
+🖍 Custom LED colors: Control the LED strip with your chosen color.
+🌈 Animations: Includes effects like a rainbow animation (or aurora).
+📱 Cross-platform app: Built for both desktop (status bar app) and mobile using Flutter.
+🛜 IoT communication: Uses MQTT protocol for efficient real-time updates.
+⚙️ How It Works
+
+1. Hardware Setup
+I chose the ESP32 microcontroller for its built-in WiFi and Bluetooth capabilities.
+Wrote code to control the LED strip and added features like animations.
+2. Flutter App
+Developed a cross-platform Flutter app to control the LEDs.
+Created a status bar app because I spend most of my time on my laptop.
+3. Server Setup
+Built a Node.js server (later migrated to TypeScript) with WebSocket communication for real-time updates.
+Upgraded to MQTT protocol for better performance.
+🖥️ Infrastructure
+
+To deploy the server, I converted an old laptop into a personal server running Ubuntu Server:
+
+Configured a domain via GoDaddy.
+Used DuckDNS to handle my dynamic IP issues with a cron job to update the IP automatically.
+🔧 Refactoring & Automation
+
+I constantly improved the codebase and processes:
+
+✅ Migrated from BLoC to a better state management approach.
+✅ Implemented GitHub Actions for CI/CD.
+✅ Automated TestFlight deployments using Fastlane.
+✅ Switched from WebSocket to MQTT protocol for efficient IoT communication.
+
+
+💡 What I Learned
+
+This project was not just about controlling an LED strip—it was about exploring hardware, software, and infrastructure. It taught me about:
+
+Microcontrollers like the ESP32.
+Building scalable apps with Flutter.
+Creating and deploying personal servers.
+Handling dynamic IPs and domain configuration.
+🚀 Future Plans
+
+Add more animations and customization options.
+Explore integrating voice control.
+Deploy to a cloud service for scalability.
+Made with ❤️ by Victorsdd
+
+
