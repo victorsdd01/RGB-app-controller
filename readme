@@ -39,7 +39,6 @@ I constantly improved the codebase and processes:
 ✅ Automated TestFlight deployments using Fastlane.
 ✅ Switched from WebSocket to MQTT protocol for efficient IoT communication.
 
-
 💡 What I Learned
 
 This project was not just about controlling an LED strip—it was about exploring hardware, software, and infrastructure. It taught me about:
@@ -54,5 +53,7 @@ Add more animations and customization options.
 Explore integrating voice control.
 Deploy to a cloud service for scalability.
 Made with ❤️ by Victorsdd
+
+You can see more videos and photos in my linkedin
 
 
