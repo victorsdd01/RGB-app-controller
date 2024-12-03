@@ -39,6 +39,8 @@ I constantly improved the codebase and processes:
 ✅ Automated TestFlight deployments using Fastlane.
 ✅ Switched from WebSocket to MQTT protocol for efficient IoT communication.
 
+<video src="https://github.com/victorsdd01/RGB-app-controller/blob/main/demostration.mp4" autoplay poster="https://github.com/victorsdd01/RGB-app-controller/blob/main/demostration.mp4"></video>
+
 💡 What I Learned
 
 This project was not just about controlling an LED strip—it was about exploring hardware, software, and infrastructure. It taught me about:
